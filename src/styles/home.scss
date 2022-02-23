@@ -8,3 +8,9 @@
 .button:hover{
     transition: 0.8s;
 }
+
+@media(max-device-width: 768px){
+    .home{
+        min-height: 830px;
+    }
+}
