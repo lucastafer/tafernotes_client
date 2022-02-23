@@ -1,0 +1,22 @@
+@import "./custom_colors";
+
+.users{
+  padding-top: 40px !important;
+  
+  .card-content{
+    padding: 40px;
+  }
+  .users-edit{
+    .title{
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.dropdown-item a{
+  color: black;
+}
+
+.dropdown-item a:hover{
+  color: rgb(37, 37, 37);
+}

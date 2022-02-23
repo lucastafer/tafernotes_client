@@ -7,7 +7,7 @@ import { Navigate, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faList } from '@fortawesome/free-solid-svg-icons'
 
-function HeaderLogged(props) {
+function UserEditHeader(props) {
   const [navigateToHome, setNavigateToHome] = useState(false);
   const [user, setUser] = useState(localStorage.getItem('user'));
     
@@ -42,15 +42,6 @@ function HeaderLogged(props) {
 
       <Navbar.Menu>
         <Navbar.Segment as="div" className="navbar-item navbar-start" align="start">
-          <Navbar.Item as="div">
-            <Button 
-              className="open-button" 
-              color="white" 
-              outlined
-              onClick={() => props.setIsOpen(true)}>
-              <FontAwesomeIcon icon={faList} />
-            </Button>
-          </Navbar.Item>
         </Navbar.Segment>
         <Navbar.Segment as="div" className="navbar-item navbar-end" align="right">
           <Navbar.Item as="div">
@@ -63,7 +54,7 @@ function HeaderLogged(props) {
               <Dropdown.Menu>
                 <Dropdown.Content>
                   <Dropdown.Item as="div">
-                    <Link to="/users/edit">User Edit</Link>
+                    <Link to="/notes">Notes</Link>
                   </Dropdown.Item>
                   <Dropdown.Divider />
                   <Dropdown.Item as="div">
@@ -79,4 +70,4 @@ function HeaderLogged(props) {
   )
 }
 
-export default HeaderLogged;
+export default UserEditHeader;

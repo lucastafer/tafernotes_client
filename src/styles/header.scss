@@ -3,17 +3,22 @@
 nav.navbar {
   height: 70px;
   border-bottom: 1px solid black;
+  background-color: black;
   
   .navbar-brand {  
     img {
-      height: 40px;
-      margin-top:15px;
+      height: 55px;
+      margin-top:5px;
     }
   }
 }
 
 .navbar-logged{
   .navbar-menu{
-    background-color: $custom-purple;
+    background-color: black;
   }
+}
+
+.a{
+  color: black;
 }

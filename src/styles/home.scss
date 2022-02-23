@@ -4,3 +4,27 @@
     background-color: $custom-purple;
     height: calc(100% - 70px);
 }
+
+.register-button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.register-button:hover{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 80%;
+    transition: 0.8s;
+}
+
+.button:hover{
+    transition: 0.8s;
+}

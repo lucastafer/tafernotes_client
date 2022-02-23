@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Container, Column } from 'rbx';
-import logoImage from '../../assets/images/logo.png';
+import logoImage from '../../assets/images/tafernotes-logo.png';
 import '../../styles/header.scss';
 import { Link } from 'react-router-dom';
 

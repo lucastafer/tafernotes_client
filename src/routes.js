@@ -15,6 +15,7 @@ const RoutesFunction = () => (
       <Route path="/users/edit" element={<PrivateOutlet><UserEditScreen/></PrivateOutlet>}/>
       <Route path="/register" element={<RegisterScreen />} />
       <Route path="/login" element={<LoginScreen />} />
+      
     </Routes>
   </BrowserRouter>
 );
