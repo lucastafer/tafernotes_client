@@ -28,7 +28,7 @@ function UsersEditFormPassword() {
       <form onSubmit={handleSubmit}>
         <Field>
           <Control>
-            <Label className="has-text-grey">Password</Label>
+            <Label className="has-text-white">Password</Label>
             <Input
               type="password"
               value={password}
@@ -40,7 +40,7 @@ function UsersEditFormPassword() {
         </Field>
         <Field>
           <Control>
-            <Label className="has-text-grey">Password Confirmation</Label>
+            <Label className="has-text-white">Password Confirmation</Label>
             <Input
               type="password"
               value={password_confirmation}
@@ -55,7 +55,7 @@ function UsersEditFormPassword() {
           <Control>
             <Column.Group>
               <Column className="has-text-right">
-                <Button color="custom-purple" outlined>Update Password</Button>
+                <Button color="white" outlined>Update Password</Button>
               </Column>
             </Column.Group>
           </Control>

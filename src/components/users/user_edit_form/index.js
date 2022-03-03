@@ -33,7 +33,7 @@ function UsersEditForm() {
       <form onSubmit={handleSubmit}>
         <Field>
           <Control>
-            <Label className="has-text-grey">Full Name</Label>
+            <Label className="has-text-white">Full Name</Label>
             <Input
               type="name"
               value={name || ""}
@@ -45,7 +45,7 @@ function UsersEditForm() {
         </Field>
         <Field>
           <Control>
-            <Label className="has-text-grey">Email</Label>
+            <Label className="has-text-white">Email</Label>
             <Input
               type="email"
               value={email || ""}
@@ -60,7 +60,7 @@ function UsersEditForm() {
           <Control>
             <Column.Group>
               <Column className="has-text-right">
-                <Button color="custom-purple" outlined>Update</Button>
+                <Button color="white" outlined>Update</Button>
               </Column>
             </Column.Group>
           </Control>

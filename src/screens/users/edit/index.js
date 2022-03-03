@@ -13,7 +13,7 @@ const UserEditScreen = () => (
       <Container>
         <Column.Group centered className="users-edit">
           <Column size={4}>
-            <Title size={5} className="has-text-grey has-text-left">
+            <Title size={5} className="has-text-white has-text-left">
               Personal information
             </Title>
             <Card>
@@ -26,7 +26,7 @@ const UserEditScreen = () => (
 
         <Column.Group centered className="users-edit">
           <Column size={4}>
-            <Title size={5} className="has-text-grey has-text-left">
+            <Title size={5} className="has-text-white has-text-left">
               Password
             </Title>
             <Card>

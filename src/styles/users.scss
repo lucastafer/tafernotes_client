@@ -1,6 +1,7 @@
 @import "./custom_colors";
 
 .users{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),BLACK),url("../assets/images/home-bg.jpg");
   padding-top: 40px !important;
   
   .card-content{

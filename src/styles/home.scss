@@ -1,6 +1,7 @@
 @import './custom_colors';
 
 .home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), black),url("../assets/images/home-bg.jpg");
     background-color: $custom-purple;
     height: 100%;
 }
