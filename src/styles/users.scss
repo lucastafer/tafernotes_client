@@ -1,23 +1,30 @@
 @import "./custom_colors";
 
-.users{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),BLACK),url("../assets/images/home-bg.jpg");
+.users {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), black),
+    url("../assets/images/home-bg.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
   padding-top: 40px !important;
-  
-  .card-content{
+  min-height: 830px;
+
+  .card-content {
     padding: 40px;
   }
-  .users-edit{
-    .title{
+  .users-edit {
+    .title {
       margin-bottom: 15px;
     }
   }
 }
 
-.dropdown-item a{
+.dropdown-item a {
   color: black;
 }
 
-.dropdown-item a:hover{
+.dropdown-item a:hover {
   color: rgb(37, 37, 37);
 }

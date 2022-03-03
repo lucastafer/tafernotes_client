@@ -28,5 +28,12 @@ nav.navbar {
 }
 
 .navbar-menu.is-active{
-  margin: -30px;
+  margin: -21px;
+  background-color: black;
+
+}
+
+.navbar-menu.is-active .button{
+  margin: 20px;
+  margin-bottom: -10px;
 }

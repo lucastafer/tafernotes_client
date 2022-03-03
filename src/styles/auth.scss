@@ -1,8 +1,13 @@
 @import './custom_colors';
 
 .auth{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),black),url("../assets/images/home-bg.jpg");
-    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), black),
+    url("../assets/images/home-bg.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .card-content{
